@@ -1,11 +1,36 @@
+//Notes - React does not it is a libary we can use a lot of libaries of our choice with react.
+//To use other libaries with react 
+
 1. What is `NPM`?
+  Npm is the world's largest Software Registry. The registry contains over 800,000 code packages. 
+  Open-source developers use npm to share software
+  It manages all the packages which we need to build a react application (Node package manager).
+
+//npm install -D d - means dev dependency
 
 2. What is `Parcel/Webpack`? Why do we need it?
 
-Parcel and webpack are the bundlers used mostly for JavaScript or Typescript code that helps to minify, 
-clean, and make code compact so that it becomes easier to send a request or receive the response from 
-the server when it usually takes you to transfer multiple files without using any bundler for loading the 
-page of your application. Both of these bundlers substantially reduce the time it takes for the transfer of
-data and files to the server from the application. Along with that both bundlers parcel and webpack remove 
-the unnecessary comments, new lines, any kind of block delimiters, and white spaces while the functionality 
-of the code remains unchanged.
+ Parcel and webpack are the bundlers used mostly for JavaScript or Typescript code that helps to minify, 
+ clean, and make code compact so that it becomes easier to send a request or receive the response from 
+ the server when it usually takes you to transfer multiple files without using any bundler for loading the 
+ page of your application. Both of these bundlers substantially reduce the time it takes for the transfer of
+ data and files to the server from the application. Along with that both bundlers parcel and webpack remove 
+ the unnecessary comments, new lines, any kind of block delimiters, and white spaces while the functionality 
+ of the code remains unchanged.
+
+
+ 3. What is .parcel-cache?
+   .parcel-cache folder holds information about your project and is used by Parcel to rebuild your application.
+    When you make changes to your files, Parcel will detect those changes and re-run your build with
+    these files instead of starting from scratch.
+
+
+4. What is the `dist` folder?
+   
+
+
+5. Script types in html?
+   
+
+6. What is `.gitignore`? What should we add and not add into it?
+   The .gitignore file is a text file that tells Git which files or folders to ignore in a project.
